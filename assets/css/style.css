@@ -415,7 +415,7 @@ section .container {
 
 .about-me .content ul i {
   font-size: 20px;
-  padding-right: 10px;
+  padding-right: 2px;
   color: var(--custom-dark-green);
 }
 
