@@ -3,7 +3,7 @@
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-    <title>Breast Cancer Prediction using Logistic Regression</title>
+    <title>Breast Cancer Predictions & Analysis</title>
     <meta content="" name="descriptison" />
     <meta content="" name="keywords" />
 
@@ -53,9 +53,9 @@
           <div class="row">
             <div class="col-lg-12 portfolio-info">
               <br />
-              <h2 style="color: #12d640">Product Info Crawler</h2>
+              <h2 style="color: #12d640">Breast Cancer Predictions & Analysis</h2>
               <ul>
-                <li><strong>Tech Stack</strong>:Python, Jupyter Notebook, sklearn</li>
+                <li><strong>Tech Stack</strong>:Python, Scikit-learn, Keras, Model Evaluation Metrics</li>
                 <!-- <li>
                   <strong>Website URL</strong>:
                   <a
@@ -67,23 +67,44 @@
                 <li>
                   <strong>Github URL</strong>:
                   <a
-                    href="https://github.com/kshubham96/Logistic-Regression-on-the-breast-cancer-dataset"
+                    href="https://github.com/kshubham96/Breast-Cancer-Predictions"
                     target="_blank"
                     >Project Link</a
                   >
                 </li>
               </ul>
 
-              <!-- <p>Web Crawler </p> -->
+              <!-- <p>Breast Cancer </p> -->
               <p>
-                Product-Info-Crawler is a python web crawler developed using
-                scrapy framework. It has four spiders for crawling the search
-                results from olx.in, amazon.in, ebay.in and shopclues.com. The
-                crawler extract the product names, price, image urls, product
-                urls and source and stores them in a csv file named results.csv.
-                It can be useful for comparing the price of a particular product
-                between different e-commerce websites.
+                <b> Overview </b>: The goal was to analyze a breast cancer dataset to predict whether a tumor is benign (0) or malignant (1). 
+                The dataset contained 683 instances with 11 features including clump thickness, cell uniformity, adhesion, and more.
               </p>
+              <p>
+                <b> Approach </b>:
+                <ul>
+                  <li>Data preprocessing: Transformed the class values to binary, scaled the features.</li>
+                  <li>Split data 80/20 into train/test sets.</li>
+                  <li>Built Logistic Regression model and achieved 94% accuracy. Evaluated with confusion matrix, classification report, k-fold cross validation.</li>
+                  <li>Also built a Neural Network model with 3 hidden layers. Achieved 97% accuracy on test set.</li>
+                </ul>
+                
+              </p>
+              <p>
+                
+                <b> Achievements </b>:
+                <ul>
+                  <li>The Logistic Regression model achieved high accuracy of 94% in predicting benign vs malignant tumors.</li>
+                  <li>The Neural Network model performed even better with 97% accuracy.</li>
+                  <li>Both models had good precision and recall scores, showing ability to accurately classify benign and malignant cases.</li>
+                  <li>Overall, effective machine learning models were developed to predict breast cancer type from cell features.</li>
+                </ul>
+                
+              </p>
+              
+              <p>
+                <b> Duration </b>: February 2021 - March 2021
+              </p>
+              
             </div>
           </div>
         </div>
